@@ -18,7 +18,8 @@ Conteúdo do site [Site](https://www.youtube.com/watch?v=E0RbrYSMw3g)
 
 Work !
 
-```{r echo = FALSE, fig.align='center', error=FALSE, message="", warning=FALSE}
+```
+{r echo = FALSE, fig.align='center', error=FALSE, message="", warning=FALSE}
 library(igraph)
 M  <-  matrix( c(    0,	 96,	 48,	15,	     0,	    0,
                    588,	  0,	  0,	 0,	   525,	   25,
@@ -26,8 +27,4 @@ M  <-  matrix( c(    0,	 96,	 48,	15,	     0,	    0,
                      0,   0,	 20,     0,	     0,	    0,
                      0,	154,	  0,     0,	     0,	    0,
                      0,	  9,	  0,	 0,	     0,	    0),nrow=6,ncol=6,byrow = TRUE)
-
-dimnames(M)  <-  list( c("Agric", "Alime", "IndTr", "Eletr", "Petro", "Transp" ), c("Agric", "Alime", "IndTr", "Eletr", "Petro", "Transp" ))
-
-pander(M) 
 ```
