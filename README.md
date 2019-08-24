@@ -37,20 +37,17 @@ O código segue uma ordem lógia de processamento:
 - **Geração dos *Graphos* **:
 
 
+![Brasil 2007](/Input-Output_Network/BRA_Net_2007_005.png "Brasil 2007")  
 
+![México 2007](/Input-Output_Network/MEX_Net_2007_005.png "México 2007")
 
-
-
-Conteúdo do site [Site](https://www.youtube.com/watch?v=E0RbrYSMw3g)
 
 `git remote add upstream https://github.com/r-bio/challenges-francois`
 
-**eu** fiz *isso* 
 
 ![Test](/Input-Output_Network/net_gif_000.gif "Test")
 
-Work !
 
-
-- abc
-- def
+**Luiz Gabriel de Souza**
+*luiz.gabriel.souza@hotmail.com*
+[Linkedin](https://www.linkedin.com/in/luizgsouzacrm/)
