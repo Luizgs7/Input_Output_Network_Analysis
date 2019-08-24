@@ -42,12 +42,9 @@ O código segue uma ordem lógia de processamento:
 ![México 2007](/Input-Output_Network/MEX_Net_2007_005.png "México 2007")
 
 
-`git remote add upstream https://github.com/r-bio/challenges-francois`
-
-
 ![Test](/Input-Output_Network/net_gif_000.gif "Test")
 
 
-**Luiz Gabriel de Souza**
-*luiz.gabriel.souza@hotmail.com*
-[Linkedin](https://www.linkedin.com/in/luizgsouzacrm/)
+**Luiz Gabriel de Souza**  
+*luiz.gabriel.souza@hotmail.com*  
+[Linkedin](https://www.linkedin.com/in/luizgsouzacrm/)  
