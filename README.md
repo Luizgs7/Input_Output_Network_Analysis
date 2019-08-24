@@ -1,12 +1,45 @@
-# NetworkIO
 ## Network analysis with Input-Output Matrix
 
-> abc
+Este projeto demonstra como executar uma análise de Networks das matrizes Insumo-Produto disponibilizadas pelo projeto internacional do União Européia chamado de *World Input-Output Database*. ([WIOD](http://www.wiod.org/project))
+Esta página é uma contribuição a divulgação do método de análise de *graphos* na Ciência Econômica.
 
-### Analise
+### Pacotes necessários
 
-- abc
-- def
+```
+library(tidyverse)  
+library(readxl)  
+library(igraph)  
+library(sna)  
+library(network)  
+library(intergraph)  
+library(xtable)  
+library(reshape)  
+library(ggraph)  
+library(data.table)  
+library(RColorBrewer)  
+library(gridExtra)    
+library(rlang)  
+library(plotly)  
+library(sqldf)  
+library(GGally)  
+library(grid)  
+```
+
+### O código
+O código que será apresentado abaixo foi estruturado para gerar automaticamente, mas ainda contando com certo grau de personalização,  bases de resumo estatístico das análises de graphos e os próprios graphos em si, podendo serem utilizados como subsidio técnico para análises econômicas variádas.
+
+O código segue uma ordem lógia de processamento:  
+- **Setup de variáveis**:
+- **Mapeamento dos países a serem análisados**:
+- **Importação bases**:
+- **Aplicação do filtro de corte**:
+- **Resumo Estatístico**:
+- **Geração dos *Graphos* **:
+
+
+
+
+
 
 Conteúdo do site [Site](https://www.youtube.com/watch?v=E0RbrYSMw3g)
 
@@ -18,13 +51,6 @@ Conteúdo do site [Site](https://www.youtube.com/watch?v=E0RbrYSMw3g)
 
 Work !
 
-```
-{r echo = FALSE, fig.align='center', error=FALSE, message="", warning=FALSE}
-library(igraph)
-M  <-  matrix( c(    0,	 96,	 48,	15,	     0,	    0,
-                   588,	  0,	  0,	 0,	   525,	   25,
-                   291,	  0,	  0,	59,	     0,	    0,
-                     0,   0,	 20,     0,	     0,	    0,
-                     0,	154,	  0,     0,	     0,	    0,
-                     0,	  9,	  0,	 0,	     0,	    0),nrow=6,ncol=6,byrow = TRUE)
-```
+
+- abc
+- def
