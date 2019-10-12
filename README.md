@@ -341,8 +341,8 @@ for (c in 1:10){
 ![México 2007](/Input-Output-Network-Analysis/MEX_Net_2007_005.png "México 2007")
 
 
-<img src="/Input-Output-Network-Analysis/MEX_Net_2007_005.png" width="300" height="300">
-<img src="/Input-Output-Network-Analysis/MEX_Net_2007_005.png" width="300" height="300">
+<img src="/Input-Output-Network-Analysis/MEX_Net_2007_005.png" width="350" height="350">
+<img src="/Input-Output-Network-Analysis/MEX_Net_2007_005.png" width="350" height="350">
 
 
 ### Turning graphs into GIFs:
