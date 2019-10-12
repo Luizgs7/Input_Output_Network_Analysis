@@ -1,11 +1,14 @@
+**Luiz Gabriel de Souza**  
+*luiz.gabriel.souza@hotmail.com*  
+[Linkedin](https://www.linkedin.com/in/luizgsouzacrm/)  
+
 ## Network analysis with Input-Output Matrix
+This project demonstrates how to perform an input-output matrix network analysis provided by the European Union international project called * World Input and Output Database *. ([WIOD] (http://www.wiod.org/project))
+This page is a contribution to the dissemination of the * graph * analysis method in Economic Science.
 
-Este projeto demonstra como executar uma análise de Networks das matrizes Insumo-Produto disponibilizadas pelo projeto internacional do União Européia chamado de *World Input-Output Database*. ([WIOD](http://www.wiod.org/project))
-Esta página é uma contribuição a divulgação do método de análise de *graphos* na Ciência Econômica.
+The code below was used as the basis of a monograph project for the completion of the Economics course at the [Federal University of Paraná](http://www.sociaisaplicadas.ufpr.br/portal/depecon/), with the support of the research group [Nex] (http://www.nex.ufpr.br/portal/ ), directed by the professor and advisor [Dr. João Basilio] (http://lattes.cnpq.br/5809035566596498)
 
-O código abaixo foi utilizado como base de projeto de monografia, para conclusão do curso de Ciências Economicas pela Universidade Federal do Paraná, com apoio do grupo de pesquisa [Nex](http://www.nex.ufpr.br/portal/), dirigido pelo professor e orientador [Dr. João Basilio](http://lattes.cnpq.br/5809035566596498)
-
-### Pacotes necessários
+### Required R Packages
 ```
 library(tidyverse)  
 library(readxl)  
@@ -26,16 +29,16 @@ library(GGally)
 library(grid)  
 ```
 
-### O código
-O código que será apresentado abaixo foi estruturado para gerar automaticamente, mas ainda contando com certo grau de personalização,  bases de resumo estatístico das análises de graphos e os próprios graphos em si, podendo serem utilizados como subsidio técnico para análises econômicas variádas.
+### The Script
+The code that will be presented below was structured to generate automatically, but still with some degree of personalization, statistical summary bases of graph analyzes and the graphs themselves, and can be used as technical support for various economic analyzes.
 
-O código segue uma ordem lógia de processamento, em um loop que processa um país de cada vez e gera os graphos e as tabelas de reseumo estatísticos automaticamente:  
-- **Setup de variáveis**:
-- **Mapeamento dos países a serem análisados**:
-- **Importação bases**:
-- **Aplicação do filtro de corte**:
-- **Resumo Estatístico**:
-- **Geração dos Graphos**:
+The code follows a logical processing order, in a loop that processes one country at a time and automatically generates graphs and statistical summary tables:
+- **Variable Setup **:
+- **Mapping of countries to be analyzed **:
+- **Import bases **:
+- **Cut filter application **:
+- **Statistical Summary **:
+- **Graphs generation **:
 
 ```
 ###################################################################################################
@@ -43,10 +46,8 @@ O código segue uma ordem lógia de processamento, em um loop que processa um pa
   #Variables to be set
 
   ### Directories
-  #DirData     <- "C:/Users/NeX/Google Drive/Nex IC 2017 - Luiz Gabriel/03.Monografia 2019/01.Scrip_R"
-  DirData      <- "C:/Users/Avell/Google Drive/Nex IC 2017 - Luiz Gabriel/03.Monografia 2019/01.Scrip_R" # Where yout scritp is 
-  #local_graph  <- paste0(DirData,"/02.graphos_tidyverse/") # Where the graphs are going to be saved
-  local_graph  <- "C:/Users/Avell/Google Drive/Nex IC 2017 - Luiz Gabriel/03.Monografia 2019/02.Artigo/graphos/" # Where the graphs are going to be saved
+  DirData      <- "" # Where yout scritp is 
+  local_graph  <- "" # Where the graphs are going to be saved
   local_matrix <- paste0(DirData,"/00.Matrizes/") # Where the matrix that are going to be used are
   
   
@@ -331,15 +332,16 @@ for (c in 1:10){
   }
   
 }
+
 ```
-### Exemplos dos Graphos gerados:
+### Examples of Graphs generated:
 
 ![Brasil 2007](/Input-Output_Network/BRA_Net_2007_005.png "Brasil 2007")  
 
 ![México 2007](/Input-Output_Network/MEX_Net_2007_005.png "México 2007")
+![vMéxico teste](/Input-Output_Network/MEX_Net_2007_005.png | width=100)
 
-
-### Transformando os graphos em GIFs:
+### Turning graphs into GIFs:
 ![Test](/Input-Output_Network/net_gif_000.gif "Test")
 
 
