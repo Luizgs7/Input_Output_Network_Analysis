@@ -336,10 +336,10 @@ for (c in 1:10){
 ```
 ### Examples of Graphs generated:
 
-![Brasil 2007](/Input-Output_Network/BRA_Net_2007_005.png "Brasil 2007")  
+![Brasil 2007](/Input-Output-Network-Analysis/BRA_Net_2007_005.png "Brasil 2007")  
 
-![México 2007](/Input-Output_Network/MEX_Net_2007_005.png "México 2007")
-![vMéxico teste](/Input-Output_Network/MEX_Net_2007_005.png | width=100)
+![México 2007](/Input-Output-Network-Analysis/MEX_Net_2007_005.png "México 2007")
+![vMéxico teste](/Input-Output-Network-Analysis/MEX_Net_2007_005.png | width=100)
 
 ### Turning graphs into GIFs:
 ![Test](/Input-Output_Network/net_gif_000.gif "Test")
