@@ -3,9 +3,7 @@
 Este projeto demonstra como executar uma análise de Networks das matrizes Insumo-Produto disponibilizadas pelo projeto internacional do União Européia chamado de *World Input-Output Database*. ([WIOD](http://www.wiod.org/project))
 Esta página é uma contribuição a divulgação do método de análise de *graphos* na Ciência Econômica.
 
-O código abaixo foi utilizado como base de uma pesquisa de Iniciação Ciêntifica na Universidade Federal do Paraná, com apoio do grupo de pesquisa Nex, dirigido pelo 
-
-http://www.nex.ufpr.br/portal/
+O código abaixo foi utilizado como base de projeto de monografia, para conclusão do curso de Ciências Economicas pela Universidade Federal do Paraná, com apoio do grupo de pesquisa [Nex](http://www.nex.ufpr.br/portal/), dirigido pelo professor e orientador [Dr. João Basilio](http://lattes.cnpq.br/5809035566596498)
 
 ### Pacotes necessários
 ```
@@ -37,7 +35,7 @@ O código segue uma ordem lógia de processamento, em um loop que processa um pa
 - **Importação bases**:
 - **Aplicação do filtro de corte**:
 - **Resumo Estatístico**:
-- **Geração dos *Graphos* **:
+- **Geração dos Graphos**:
 
 ```
 ###################################################################################################
