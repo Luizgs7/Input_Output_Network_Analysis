@@ -341,9 +341,9 @@ for (c in 1:10){
 ![México 2007](/Input-Output-Network-Analysis/MEX_Net_2007_005.png "México 2007")
 
 
-![vMéxico teste](/Input-Output-Network-Analysis/MEX_Net_2007_005.png | width=100)
-![a1](/Input-Output-Network-Analysis/MEX_Net_2007_005.png =250x250)
-<img src="/Input-Output-Network-Analysis/MEX_Net_2007_005.png" width="100" height="100">
+<img src="/Input-Output-Network-Analysis/MEX_Net_2007_005.png" width="300" height="300">
+<img src="/Input-Output-Network-Analysis/MEX_Net_2007_005.png" width="300" height="300">
+
 
 ### Turning graphs into GIFs:
 ![Test](/Input-Output-Network-Analysis/net_gif_000.gif "Test")
