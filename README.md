@@ -3,10 +3,10 @@
 [Linkedin](https://www.linkedin.com/in/luizgsouzacrm/)  
 
 ## Network analysis with Input-Output Matrix
-This project demonstrates how to perform an input-output matrix network analysis provided by the European Union international project called * World Input and Output Database *. [WIOD] (http://www.wiod.org/project)
+This project demonstrates how to perform an input-output matrix network analysis provided by the European Union international project called *World Input and Output Database*. [WIOD](http://www.wiod.org/project)
 This page is a contribution to the dissemination of the *graph* analysis method in Economic Science.
 
-The code below was used as the basis of a monograph project for the completion of the Economics course at the [Federal University of Paraná](http://www.sociaisaplicadas.ufpr.br/portal/depecon/), with the support of the research group [Nex] (http://www.nex.ufpr.br/portal/ ), directed by the professor and advisor [Dr. João Basilio] (http://lattes.cnpq.br/5809035566596498)
+The code below was used as the basis of a monograph project for the completion of the Economics course at the [Federal University of Paraná](http://www.sociaisaplicadas.ufpr.br/portal/depecon/), with the support of the research group [Nex](http://www.nex.ufpr.br/portal/ ), directed by the professor and advisor [Dr. João Basilio](http://lattes.cnpq.br/5809035566596498)
 
 ### Required R Packages
 ```
@@ -33,7 +33,7 @@ library(grid)
 The code that will be presented below was structured to generate automatically, but still with some degree of personalization, statistical summary bases of graph analyzes and the graphs themselves, and can be used as technical support for various economic analyzes.
 
 The code follows a logical processing order, in a loop that processes one country at a time and automatically generates graphs and statistical summary tables:
-- **Variable Setup **:
+- **Variable Setup**:
 - **Mapping of countries to be analyzed **:
 - **Import bases **:
 - **Cut filter application **:
