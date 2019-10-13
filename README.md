@@ -34,11 +34,11 @@ The code that will be presented below was structured to generate automatically, 
 
 The code follows a logical processing order, in a loop that processes one country at a time and automatically generates graphs and statistical summary tables:
 - **Variable Setup**:
-- **Mapping of countries to be analyzed **:
-- **Import bases **:
-- **Cut filter application **:
-- **Statistical Summary **:
-- **Graphs generation **:
+- **Mapping of countries to be analyzed**:
+- **Import bases**:
+- **Cut filter application**:
+- **Statistical Summary**:
+- **Graphs generation**:
 
 ```
 ###################################################################################################
