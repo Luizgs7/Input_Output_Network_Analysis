@@ -3,8 +3,8 @@
 [Linkedin](https://www.linkedin.com/in/luizgsouzacrm/)  
 
 ## Network analysis with Input-Output Matrix
-This project demonstrates how to perform an input-output matrix network analysis provided by the European Union international project called * World Input and Output Database *. ([WIOD] (http://www.wiod.org/project))
-This page is a contribution to the dissemination of the * graph * analysis method in Economic Science.
+This project demonstrates how to perform an input-output matrix network analysis provided by the European Union international project called * World Input and Output Database *. [WIOD] (http://www.wiod.org/project)
+This page is a contribution to the dissemination of the *graph* analysis method in Economic Science.
 
 The code below was used as the basis of a monograph project for the completion of the Economics course at the [Federal University of Paraná](http://www.sociaisaplicadas.ufpr.br/portal/depecon/), with the support of the research group [Nex] (http://www.nex.ufpr.br/portal/ ), directed by the professor and advisor [Dr. João Basilio] (http://lattes.cnpq.br/5809035566596498)
 
